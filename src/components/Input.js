@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
 class Input extends Component {
-constructor(props) {
-    super()
-
-    this.state = {};
-}
+    constructor(props) {
+        super()
+        this.state = {};
+    }
 
     render() {
         return (
@@ -16,6 +15,5 @@ constructor(props) {
         )
     }
 }
-
 
 export default Input;
